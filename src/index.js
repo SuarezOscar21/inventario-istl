@@ -43,7 +43,7 @@ app.use('/api',routerRol);
 
 //port
 var port = process.env.PORT || 8090
-app .listen(port, ()=> {
+app.listen(port, ()=> {
     console.log('iniciando',port)
 
 })
